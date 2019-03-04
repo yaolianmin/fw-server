@@ -1,0 +1,148 @@
+.add_siyou img:hover{cursor:pointer;}.pinpaizhi{width:400px;border:none;background-color: #FAFAFA;}
+    .pinpaizhi:hover,.dev_brand:hover{background-color:##FAFAFA;}
+    .dev_add_form ul li .mouseover::-webkit-scrollbar{width: 1px;height:1px;background-color:#FAFAFA;}  
+    .dev_brand{height: 30px;overflow: hidden;width:100%;}
+    .dev_brand input{height: 28px;float: left;}
+    .dev_brand:hover{background-color:#FAFAFA;}
+    .add-devs{position: relative;top: -30px;left: -34px;}
+    .add-devs:hover,.dev_brand img,.content_device div:hover{
+        cursor: pointer;
+    }
+    .box{
+            position: absolute;
+            top: -40px;
+            left: 560px;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 40px solid #D4E7F0;
+            border-left: 70px solid transparent;
+            border-right: 30px solid #D4E7F0;
+            display: none;
+    }
+    .content_device{
+            position: absolute;
+            top: -80px;
+            left: 610px;
+            width: 400px;
+            background-color: #D4E7F0;
+             height: 300px;
+            display: none;
+    }
+    .delete_attr{
+    margin-top: 4px;
+    margin-left: 40px;
+    display: none;  
+    }
+    .reurn_infor{
+        clear:both;
+        margin-left:40%;
+        height:30px;
+        line-height:30px;
+        color:red;
+    }
+    .user_infor{
+        width: 99%;
+        height: 34px;
+        margin-top: 6px;
+        border-bottom: solid 1px #d3dbde;
+        margin-left: 10px;
+    }
+    .user_infor ul li {
+        width: 110px;
+        height: 34px;
+        background: url('../images/itabbg1.png') repeat;
+        border-right: solid 1px #d3dbde;
+        border-left: solid 1px #d3dbde;
+        border-bottom: solid 1px #fff;
+    }
+    .user_infor ul li a{
+        float: left;
+        height: 34px;
+        width: 110px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .user_form{
+        width: 99%；
+        margin-left:10px;
+    }
+    .user_form ul li{
+        height: 34px;
+        line-height: 34px;
+        margin-top: 14px;
+        margin-left: 46px;
+    }
+    .user_form ul li .input{
+        height: 32px;
+        line-height: 32px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        text-indent: 10px;
+        background: url('../images/inputbg.gif') repeat-x;
+    }
+    .user_form ul li .span{
+        float: left;
+        width: 90px;
+        height: 34px;
+        text-align: left;
+        line-height: 34px;
+        margin-right: 6px;
+    }
+    .user_form ul li ul li{
+        margin-top: 0;
+        margin-left: 0;
+        height: 16px;
+        line-height: 16px;
+        float: left;
+        margin-right: 20px;
+    }
+   
+    .user_jibie{
+        position:relative;
+        z-index:1;
+        width:220px;
+        height:32px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        overflow:hidden;
+        cursor:pointer;
+    }
+    #user_dec_jibie{
+        width:220px;
+        height:34px;
+        opacity:0;
+        position:relative;
+        top:-34px;
+        left:97px;
+        z-index:22;
+        border:none;
+        cursor: pointer;
+    }
+    .user_input{
+        float:left;
+        margin-top:2px;
+        margin-right:4px;
+    }
+    .user_btn{
+        width:90px;
+        height:32px;
+        text-align: center;
+        line-height:32px;
+        background-color:#3B95C8;
+        color:#fff;
+        border-radius:4px;
+        border:none;
+        margin-bottom: 30px;
+    }
+    .user_btn:hover{
+        cursor: pointer;
+    }
+    .center_dev input:hover{
+        background-color: #CDCDCD;
+    }

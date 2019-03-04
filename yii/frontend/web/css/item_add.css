@@ -1,0 +1,129 @@
+ .add-devs{position: relative;top: -30px;left: -34px;}
+        .add-devs:hover,.dev_brand img,.content_device div:hover{
+            cursor: pointer;
+        }
+        .box{
+            position: absolute;
+            top: -40px;
+            left: 500px;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 40px solid #D4E7F0;
+            border-left: 70px solid transparent;
+            border-right: 30px solid #D4E7F0;
+            display: none;
+        }
+        .content_device{
+             position: absolute;
+                top: -80px;
+                left: 550px;
+            width: 400px;
+            background-color: #D4E7F0;
+            height: 300px;
+            display: none;
+        }
+        .add_devs2{
+            position: relative;
+            top: -66px;
+            left: 514px;
+        }
+        .add_devs3{
+            position: relative;
+            top: -89px;
+            left: 514px;
+        }
+        .device_infor{
+        width: 99%;
+        height: 34px;
+        margin-top: 6px;
+        border-bottom: solid 1px #d3dbde;margin-left: 10px;
+    }
+    .device_infor ul li {
+        width: 110px;
+        height: 34px;
+        background: url('../images/itabbg1.png') repeat;
+        border-right: solid 1px #d3dbde;
+        border-left: solid 1px #d3dbde;
+        border-bottom: solid 1px #fff;
+    }
+    .device_infor ul li a{
+        float: left;
+        height: 34px;
+        width: 110px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .dev_add_form{
+        width: 99%；
+        margin-left:10px;
+    }
+    .dev_add_form ul li{
+        height: 34px;
+        line-height: 34px;
+        margin-top: 14px;
+        margin-left: 46px;
+       
+    }
+    .dev_add_form ul li .input{
+        outline: none;
+        height: 32px;
+        line-height: 32px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        text-indent: 10px;
+        background: url('../images/inputbg.gif') repeat-x;
+    }
+    .dev_add_form ul li .span{
+        float: left;
+        width: 90px;
+        height: 34px;
+        text-align: left;
+        line-height: 34px;
+        margin-right: 6px;
+    }
+    .dev_add_btn{
+        width:90px;
+        height:32px;
+        text-align: center;
+        line-height:32px;
+        background-color:#3B95C8;
+        color:#fff;
+        border-radius:4px;
+        border:none;
+        margin-bottom: 30px;
+    }
+    .dev_add_btn:hover{
+        cursor: pointer;
+    }
+    .pinpaizhi{
+        border: none;
+        width: 320px;
+        height: 30px;
+        margin-top: 0px !important;
+    }
+    .add_siyou img:hover{
+        cursor: pointer;
+    }
+    #add_siyou_att,#add_siyou_val{
+        border: none;
+        border-bottom:solid 1px #a7b5bc;
+    }
+    #add_siyou_att{
+        width: 90px;
+    }
+    .pinpaizhi{
+        float: left;
+    }
+    .pinpaizhi:hover{background-color:#E5EBEE;}
+    .delete_attr{
+    margin-top: 4px;
+    margin-left: 24px;
+    height: 24px;
+    width: 24px;
+    display: none; 
+    }
+    .dev_brand{height: 30px;overflow: hidden;}

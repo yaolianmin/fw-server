@@ -1,0 +1,37 @@
+*{
+        margin:0;
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+    }
+    a{ 
+        color:#000;
+        font-size: 9pt;
+        list-style: none;
+        text-decoration: none;
+        outline:none; 
+    }
+    .place{
+        margin-top: 10px;
+        min-width: 980px;
+        height: 30px;
+        background-color: #EDF6FA;
+        border-bottom: 1px solid #d3dbde;    
+    }
+    .place span{
+        line-height: 20px;
+        height: 40px;
+        float: left;
+    }
+    .place ul li{
+        line-height: 20px;
+        height: 20px;
+        float: left;
+        font-size: 12px;
+        font-family: bold;
+    }
+    a:hover{
+        color:#00a4ac;
+    }
+    

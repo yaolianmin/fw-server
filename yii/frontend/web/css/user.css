@@ -1,0 +1,135 @@
+    th,td{
+		overflow: hidden;
+    }
+	.main-tool{
+		min-width: 980px;
+		clear: both;
+		height: 36px;
+	}
+	.main-tool .main-left{
+		float: left;
+		width: 300px;
+	}
+	.main-tool .main-left li {
+        float: left;
+		background: url('../images/toolbg.gif') repeat;
+		height: 35px;
+		border: 1px solid #d3dbde;
+		margin-right: 14px;
+		border-radius: 6px;
+		width: 86px;
+	} 
+	.main-tool .main-left .first{
+		margin-left: 10px;
+	}
+	.main-tool .main-right{
+		float: right;
+		height: 36px;
+		width: 400px;
+	}
+	.main-tool .main-right li span{
+		font-size: 9pt;
+		float: left;height: 34px;
+		line-height: 32px;
+		margin-top: 2px;
+	}
+	.main-tool .main-right li .search{
+		float: left;
+		height: 32px;
+		width: 150px;
+		line-height: 30px;
+		border-top: solid 1px #a7b5bc;
+		border-left: solid 1px #a7b5bc;
+		border-right: solid 1px #ced9df;
+		border-bottom: solid 1px #ced9df;
+		text-indent: 10px;
+		font-size: 9pt;
+		background: url('../images/inputbg.gif') repeat;
+		margin-left: 8px;
+		margin-top: 2px;
+	}
+	.main-tool .main-right li .sou{
+		float: right;
+		margin-right: 40px;
+		width:80px;
+		line-height: 32px;
+		height: 34px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 14px;
+		border: 0;
+		border-radius: 4px;
+		background-color: #3F97C9;
+		cursor: pointer;
+		margin-top: 2px;
+	}
+	#user-delete:hover{
+		cursor: pointer;
+	}
+	.tablest{
+		border: solid 1px #cbcbcb;
+		width:99%;
+		clear: both;
+		border-collapse: collapse;
+		border-spacing: 0;
+		font-size: 9pt;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.tablest th{
+		margin-left: 10px;
+		height: 34px;
+		line-height: 34px;
+		border-bottom: solid 1px #b6cad2;
+		text-indent: 11px;
+		text-align: left;
+		background: url('../images/th.gif') repeat;
+	}
+	.tablest td{
+		margin-left: 10px;
+		line-height: 35px;
+		text-indent: 11px;
+		border-right: dotted 1px #c7c7c7;
+	}
+	.tablest tr:hover{
+	 	background: #E5EBEE;
+	}
+	.tablest td a{
+		color: #056dae;
+	}
+    .user_shadow{
+     	position:fixed;
+     	top:0;
+     	width:100%;
+     	height:100%;
+     	z-index:19891014;
+     	background-color: rgb(0, 0, 0);
+     	opacity: 0.3;
+     	display: none;
+     }
+    .user_shadow_content{
+     	position:fixed;
+     	top:50%;
+     	left:50%;
+     	width:420px;
+     	height:240px;
+     	margin-top:-120px;
+     	margin-left:-210px;
+     	z-index:19891015;
+     	background-color:#fff;
+     	display: none;
+    }
+    .user_shadow_sure{
+     	margin-left:110px;
+     	width:80px;
+     	height:30px;
+     	margin-top:60px;
+     }
+    .user_shadow_quxiao{
+     	margin-left:20px;
+     	width:80px;
+     	height:30px;
+     	margin-top:60px;
+     }
+     

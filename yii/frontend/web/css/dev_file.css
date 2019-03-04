@@ -1,0 +1,175 @@
+    .device_infor{
+        width: 99%;
+        height: 34px;
+        margin-top: 6px;
+        border-bottom: solid 1px #d3dbde;
+    }
+    .device_infor ul .common_dec_add{
+        width: 110px;
+        height: 34px;
+        background: url('../images/itabbg1.png') repeat;
+        border-right: solid 1px #d3dbde;
+        border-left: solid 1px #d3dbde;
+        border-bottom: solid 1px #fff;
+    }
+    .device_infor ul li a{
+        float: left;
+        height: 34px;
+        width: 110px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+        outline:none; 
+    }
+    .common_add_jibie{
+        position:relative;
+        top: -36px;
+        left: 120px;
+        z-index:1;
+        width:220px;
+        height:32px;
+        line-height: 32px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        overflow:hidden;
+        cursor:pointer;
+    }
+    #common_add_dec_jibie{
+        width:222px;
+        height:34px;
+        opacity: 0;
+        position:relative;
+        top:-70px;
+        left:120px;
+        z-index:22;
+        border:none;
+        cursor: pointer;
+    }
+    .dev_add_form{
+        width: 99%；
+        margin-left:10px;
+       /* border: 1px solid red;*/
+    }
+    .dev_add_form ul li{
+        height: 34px;
+        line-height: 34px;
+        margin-top: 30px;
+        margin-left: 46px;
+       
+    }
+    .dev_add_form ul li .input{
+        height: 32px;
+        line-height: 32px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        text-indent: 10px;
+        background: url('../images/inputbg.gif') repeat-x;
+    }
+    .dev_add_form ul li .span{
+        float: left;
+        width: 110px;
+        height: 34px;
+        text-align: left;
+        line-height: 34px;
+        margin-right: 6px;
+
+    }
+    .dev_add_form .common_add_jibie2{
+        position:relative;
+        top: -108px;
+        left: 400px;
+        z-index:1;
+        width:220px;
+        height:32px;
+        line-height: 32px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        overflow:hidden;
+        cursor:pointer;
+    }
+    #common_add_dec_jibie2{
+        width:222px;
+        height:34px;
+        opacity: 0;
+        position:relative;
+        top:-141px;
+        left:400px;
+        z-index:22;
+        border:none;
+        cursor: pointer;
+    }
+    .dev_file{
+        position: relative;
+        top: 2px;
+        left: 0px;
+        z-index: 22;
+        opacity: 0;
+    }
+    .dev_file_up{
+        position:relative;
+        top: -33px;
+        left: 46px;
+        width: 90px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        background-color: #3B95C8;
+        color: #fff;
+        z-index: 1;
+
+    }
+
+    .delete_files,.dev_add_btns,.dev_add_btn{
+        width:90px;
+        height:32px;
+        text-align: center;
+        line-height:32px;
+        background-color:#3B95C8;
+        color:#fff;
+        border-radius:4px;
+        border:none;
+        margin-bottom: 30px;
+    }
+    .dev_file,.dev_add_btn:hover{
+        cursor: pointer;
+    }
+    .file_name{
+        display:inline-block;
+         width:500px;
+         text-align:left; 
+        color: #88AAEA;
+    }
+    .file_name:hover{
+        cursor: pointer;
+    }
+
+    .dev_add_form ul li .file_look{
+        display:inline-block;
+        width:500px;
+        text-align:left; 
+        color: #88AAEA;
+    }
+    .file_lookss:hover{
+        cursor: pointer;
+    }
+
+    .file_names{
+         display:inline-block;
+         width:500px;
+         text-align:left; 
+        color: #88AAEA;
+    }
+    .file_names:hover{
+        cursor: pointer;
+    }
+    
+
+
+
+    

@@ -1,0 +1,105 @@
+    /*按钮搜索区*/
+    .device-tool{
+        min-width: 980px;
+        clear: both;
+        height: 38px;
+        overflow: hidden;
+    }
+    .device-tool .device-left{
+        float: left;
+        width: 700px;
+    }
+    .device-tool .device-left li {
+        float: left;
+        background: url('../images/toolbg.gif') repeat;
+        height: 35px;
+        border: 1px solid #d3dbde;
+        margin-right: 10px;
+        border-radius: 6px;
+        width: 120px;
+    } 
+    .device-tool .device-left li a{
+        width: 120px;
+        float: left;
+    }.device-tool .device-left li a img{
+        width: 22px;
+    }
+    .device-tool .device-left li a span{
+        display: block;
+        width: 85px;
+    }
+    .device-tool .device-left .first{
+        margin-left: 2px;
+    }
+    .device-tool .device-right{
+        float: right;
+        height: 36px;
+        width: 380px;
+        
+    }
+    .device-tool .device-right li span{
+        font-size: 9pt;
+        float: left;height: 34px;
+        line-height: 32px;
+        margin-top: 2px;
+    }
+    .device-tool .device-right li .search{
+        float: left;
+        height: 32px;
+        width: 150px;
+        line-height: 30px;
+        border-top: solid 1px #a7b5bc;
+        border-left: solid 1px #a7b5bc;
+        border-right: solid 1px #ced9df;
+        border-bottom: solid 1px #ced9df;
+        text-indent: 10px;
+        font-size: 9pt;
+        background: url('../images/inputbg.gif') repeat;
+        margin-left: 8px;
+        margin-top: 2px;
+    }
+    .device-tool .device-right li .sou{
+        float: right;
+        margin-right: 40px;
+        width:80px;
+        line-height: 32px;
+        height: 34px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #3F97C9;
+        cursor: pointer;
+        margin-top: 2px;
+    }
+    .add_siyou img,#device-delete:hover{
+        cursor: pointer;
+    }
+    /*机种表格区*/
+    .tablest th{
+        margin-left: 10px;
+        height: 34px;
+        line-height: 34px;
+        border-bottom: solid 1px #b6cad2;
+        text-indent: 11px;
+        text-align: left;
+        background: url('../images/th.gif') repeat;
+    }
+    .tablest td{
+        margin-left: 10px;
+        line-height: 35px;
+        text-indent: 11px;
+        border-right: dotted 1px #c7c7c7;
+    }
+    .tablest tr:hover{
+        background: #E5EBEE;
+    }
+    .tablest td a{
+        color: #056dae;
+    }
+    .pages .pagination{margin-right: 4px;}
+    .pages .pagination li{width: 30px;height: 28px;float: left;text-align: center;border: 1px solid #DDDDDD;line-height: 28px;}
+    .pages .pagination li a{display: inline-block;color: #93A4D5;width: 100%;}
+    img{border-radius: 50%}
+
